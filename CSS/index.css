@@ -1,20 +1,44 @@
-header
+.background-black
+{
+    background-color: black;
+}
+
+.background-black p
+{
+    color: white;
+    margin-left: 10em;
+}
+.div-background
 {
 	padding: 20em;
 	background: linear-gradient(to bottom left, orange,black);
 }
+
+.texte-header
+{
+    vertical-align: text-top;
+    text-align: center;
+}
+
+.texte-header p
+{
+    vertical-align: text-top;
+    color: white;
+}
+
 .image-header
 {
-    top: -500em !important;
+    top: -500em !important;}
 	/* box-sizing: border-box;
     min-height: 100vh;
     position: relative;
     transform-style: inherit;
     width: 100vw;
     text-align: center;
-    text-transform: uppercase; */
+    text-transform: uppercase;
 }
-/* html
+
+html
 {
     margin: 0;
     padding: 0;
